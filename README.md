@@ -5,7 +5,7 @@
 
         sudo apt install curl
         
-![image](https://user-images.githubusercontent.com/40049149/186214129-b1fc865e-eb80-47fc-a063-d497e7b51496.png)
+![image](https://user-images.githubusercontent.com/40049149/186681818-eb9d1344-c0de-4e4d-ac0e-d04a0811e540.png)
 
         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
@@ -16,7 +16,7 @@
         
 ![image](https://user-images.githubusercontent.com/40049149/186215429-51ef0a2a-098b-4c23-a344-e33ec78ba058.png)
 
-        sudo apt install nodejs
+        sudo apt install npm
         
 ![image](https://user-images.githubusercontent.com/40049149/186216762-1af42a0e-a0c6-43fd-ade1-eb9aa73b24b1.png)
 
