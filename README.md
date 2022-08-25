@@ -44,16 +44,22 @@ digunakan untuk merubah kepemilikan suatu file
         
 ![image](https://user-images.githubusercontent.com/40049149/186690178-cbdeaef1-adb7-431a-812b-e072455bc0bc.png)
         
-4. Connect ke ip baru yang dimasukkan sebelumnya
+4. Connect ke ip baru yang dimasukkan sebelumnya (close terminal jika stuck)
 
+![image](https://user-images.githubusercontent.com/40049149/186690531-467c908f-11e2-4fe2-8af5-c63972d7d3be.png)
 
 5. Untuk mengecek ip saat ini, bisa menggunakan command berikut
 
-        ip address
+        ip a
 
+![image](https://user-images.githubusercontent.com/40049149/186690718-fefcb881-7090-4659-8b0c-a56943be874d.png)
 
-Step 6
-Cek koneksi dengan ping atau traceroute
+6. Cek koneksi dengan ping atau traceroute
+
+        ping google.com
+        
+![image](https://user-images.githubusercontent.com/40049149/186691032-8d4d9794-6939-4914-8a47-bb705c7131e7.png)
+
 
 ### Cara install LocalTunel
 
