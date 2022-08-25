@@ -27,6 +27,34 @@ digunakan untuk merubah kepemilikan suatu file
 
 ### Merubah IP server Ubuntu dan Tes koneksi ip baru dengan SSH
 
+
+1. Buka sudo nano /etc/netplan/00-installer-config.yaml dengan text editor nano
+
+        sudo nano /etc/netplan/00-installer-config.yaml
+
+![image](https://user-images.githubusercontent.com/40049149/186689489-336a4e14-fd56-4c5a-a756-2bc14ed4ed46.png)
+
+2. Ubah parameter __ip__,__gateway__, dan __nameserver(dns)__ tersebut sesuai kebutuhan. __Save__ jika sudah __(ctrl + o)__, atau __exit__ dan __save__(__ctrl + x__, lalu __yes__)
+
+![image](https://user-images.githubusercontent.com/40049149/186689702-54bc1aae-0c5d-4efe-89e1-fe0ea57e8d3c.png)
+
+3. Lalu jalankan command berikut untuk meng-apply parameter yang kita masukkan sebelumnya
+
+        sudo netplan apply
+        
+![image](https://user-images.githubusercontent.com/40049149/186690178-cbdeaef1-adb7-431a-812b-e072455bc0bc.png)
+        
+4. Connect ke ip baru yang dimasukkan sebelumnya
+
+
+5. Untuk mengecek ip saat ini, bisa menggunakan command berikut
+
+        ip address
+
+
+Step 6
+Cek koneksi dengan ping atau traceroute
+
 ### Cara install LocalTunel
 
 
