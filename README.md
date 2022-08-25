@@ -1,4 +1,33 @@
-# Cara install LocalTunel
+# Day 2
+
+__Definisi Computer Network__
+Menurut saya, computer network (jaringan komputer) adalah kumpulan dua atau lebih komputer yang saling terhubung melalui suatu media.
+
+Contoh perintah linux yang digunakan untuk management server linux
+- __Sudo__
+atau super user do, berguna untuk melakukan suatu command sebagai user root tanpa harus login ke user root
+
+- __Ls__
+digunakan untuk menampilkan list atau daftar file
+
+- __Mv__
+digunakan untuk memindahkan atau rename suatu file
+
+- __Cp__
+digunakan untuk meng-copy file
+
+- __Usermod__
+digunakan untuk merubah informasi dari suatu user seperti group, nama, lokasi home directory, dll
+
+- __Chmod__
+digunakan untuk merubah permission atau ijin akses suatu file antara lain read, write, dan execute
+
+- __Chown__
+digunakan untuk merubah kepemilikan suatu file
+
+### Merubah IP server Ubuntu dan Tes koneksi ip baru dengan SSH
+
+### Cara install LocalTunel
 
 
 1. Pertama-tama yang kita lakukan adalah instalalsi node.js menggunakan nvm untuk melakukan instalasi kalian dapat mengikuti langkah-langkah dibawah ini.
